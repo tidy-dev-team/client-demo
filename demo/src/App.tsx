@@ -1,27 +1,18 @@
 import './App.css'
 import './globals.css'
-
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+import Chat_Item from './ui/chat_item'
 import { Wrench } from 'lucide-react';
 
 function App() {
 
   return (
     <>
-      <Card className='w-50 items-start border-none hover:bg-popover cursor-pointer'>
-        <CardHeader>
-          <CardTitle className='flex gap-1 text-left font-normal text-sm'>
-            <Wrench size={16} />
-            Title
-          </CardTitle>
-          <CardDescription>Subtitle</CardDescription>
-        </CardHeader>
-      </Card>
+      <Chat_Item
+        title="Title"
+        subtitle="Subtitle"
+        icon={<Wrench size={16} />}
+        onClick={() => console.log('Card clicked')}
+      />
     </>
   )
 }
