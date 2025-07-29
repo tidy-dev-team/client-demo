@@ -1,4 +1,3 @@
-import React from "react"
 import ChatItem from "./chat_item"
 import figma from "@figma/code-connect"
 
@@ -26,7 +25,7 @@ figma.connect(
       //   "hover": "hover"
       // })
     },
-    example: (props) => <ChatItem
+    example: (props: any) => <ChatItem
       title={props.title}
       subtitle={props.description}
       icon={props.icon}
