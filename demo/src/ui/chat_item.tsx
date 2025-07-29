@@ -3,7 +3,6 @@ import {
     CardTitle,
     CardDescription,
 } from "@/components/ui/card"
-import { Wrench } from 'lucide-react';
 
 type ChatItemProps = {
     title: string;
@@ -12,7 +11,7 @@ type ChatItemProps = {
     onClick?: () => void;
 };
 
-function Chat_Item({ title, subtitle, icon = <Wrench size={16} />, onClick }: ChatItemProps) {
+function Chat_Item({ title, subtitle, icon, onClick }: ChatItemProps) {
     return (
         <Card
             className='min-w-50 items-start gap-1 border-none hover:bg-popover cursor-pointer'
