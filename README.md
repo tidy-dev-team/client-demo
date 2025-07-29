@@ -25,10 +25,10 @@ sudo npm install --global @figma/code-connect@latest
 
 This will run the code-connect wizard, don't forget to add the token.
 ```bash
-npx figma connect --token=
+npx figma connect --token=[TOKEN]
 ```
 
 This will actually publish it to Figma so it's visible on Dev Mode.
 ```bash
-npx figma connect publish --token=
+npx figma connect publish --token=[TOKEN]
 ```
