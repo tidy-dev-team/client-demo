@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Card className='w-50 items-start border-none hover:bg-popover'>
+      <Card className='w-50 items-start border-none hover:bg-popover cursor-pointer'>
         <CardHeader>
           <CardTitle className='flex gap-1 text-left font-normal text-sm'>
             <Wrench size={16} />
