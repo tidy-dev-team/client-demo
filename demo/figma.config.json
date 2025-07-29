@@ -1,0 +1,7 @@
+{
+  "codeConnect": {
+    "include": ["/**/*.{tsx,jsx}"],
+    "label": "React",
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/tRrON1W9zWZucj8wMZV8II/%E2%9B%94%EF%B8%8F-DO-NOT-USE-Mashlat-Design-System?node-id=9813-14752&m=dev"
+  }
+}
